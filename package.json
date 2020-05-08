@@ -1,0 +1,19 @@
+{
+  "name": "occtopia-framework",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/occtopia/occtopia-framework.git"
+  },
+  "author": "Jason Occhipinti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/occtopia/occtopia-framework/issues"
+  },
+  "homepage": "https://github.com/occtopia/occtopia-framework#readme"
+}
