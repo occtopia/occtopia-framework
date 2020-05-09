@@ -1,0 +1,23 @@
+.form-group {
+    label {
+        display: inline-block;
+        margin-bottom: .25rem;
+    }
+}
+
+
+.form-control {
+    width: 100%;
+    max-width: 350px;
+    font-size: 1rem;
+    display: block;
+    padding: .5rem .5rem;
+    border: 2px solid #ccc;
+
+    &:focus {
+        outline: $focus-outline-width $focus-outline-style $focus-outline-color;
+        outline-offset: $focus-outline-offset;
+    }
+
+
+}
