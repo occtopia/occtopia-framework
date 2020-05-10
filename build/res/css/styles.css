@@ -21,6 +21,9 @@ a.btn {
     top: 1px;
     left: 1px; }
 
+html * {
+  box-sizing: border-box; }
+
 .form-group label {
   display: inline-block;
   margin-bottom: .25rem; }
@@ -31,7 +34,15 @@ a.btn {
   font-size: 1rem;
   display: block;
   padding: .5rem .5rem;
-  border: 2px solid #ccc; }
+  border: 2px solid #ccc;
+  margin-bottom: 1rem; }
   .form-control:focus {
     outline: 2px dotted #ff9900;
     outline-offset: 2px; }
+
+select {
+  background-color: #fff;
+  border-radius: 0;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none; }
